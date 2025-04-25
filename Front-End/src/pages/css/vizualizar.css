@@ -1,0 +1,90 @@
+.vizualizar{
+    position: absolute;
+    top:25%;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1%;
+    border-color: black;
+    width:50%;
+    left:25%;
+    background-color: #03e8dd;
+    margin: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+}
+.vizualizar_cabecalho{
+    background-color: #03589d;
+    color:antiquewhite;
+    margin: 0%;
+    padding-bottom: 1%;
+    padding-top: 1%;
+    border-bottom: black solid 2px;
+    text-align: center;
+}
+.vizualizar_linha{
+    margin: 0%;
+    padding:0%;
+    display: flex;
+}
+.vizualizar_linha_nome{
+    width:70%;
+    border-right: black solid 1px;
+    border-bottom: black solid 1px;
+    margin: 0%;
+    padding: 1%;
+}
+.vizualizar_linha_nome_titulo{
+    width:10%;
+    padding-left:2.1%;
+    font-weight: bold;
+}
+.vizualizar_linha_cpf{
+    width: 30%;
+    margin: 0%;
+    border-bottom: black solid 1px;
+    border-right: black solid 1px;
+    padding: 1%;
+}
+.vizualizar_linha_cpf_titulo{
+    width:10%;
+    padding-left:5%;
+    font-weight: bold;
+}
+.vizualizar_linha_corpo{
+    width:90%;
+    padding-left:1%;
+}
+.vizualizar_linha_numero{
+    width:50%;
+    margin: 0%;
+    border-right: black solid 1px;
+    padding: 1%;
+}
+.vizualizar_linha_numero_titulo{
+    width:10%;
+    padding-left:3%;
+    font-weight: bold;
+}
+.vizualizar_linha_botao{
+    display: flex;
+    justify-content: space-evenly;
+    width:50%;
+    margin: 0%;
+    padding: 1%;
+}
+.vizualizar_linha_botao_atualizar{
+    margin: 0.3%;
+    padding: 0.5%;
+    width:30%;
+    transition: all 0.2s ease;
+    background:#03589d;
+    border-radius: 6px;
+    border-style: solid;
+    border-width: 1px;
+}
+.vizualizar_linha_botao_atualizar:active{
+    transform: scale(0.96);
+}
+.vizualizar_linha_botao_atualizar:hover{
+    background: red;
+}

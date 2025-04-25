@@ -1,0 +1,50 @@
+.criar{
+  position: absolute;
+  display:flexbox;
+  top:25%;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 1%;
+  border-color: black;
+  width:30%;
+  left:35%;
+  background-color: #03e8dd;
+  margin: 0%;
+  padding: 1%;
+}
+.criar_input{
+  width:98.4%;
+  margin: 0%;
+  margin-top: 1%;
+  font-size: larger;
+  border-radius: 6px;
+  border: black solid 1px;
+  background: antiquewhite;
+
+}
+.criar_titulo{
+  background-color: #03589d;
+  color:antiquewhite;
+  margin: 0%;
+  padding-bottom: 1%;
+  padding-top: 1%;
+  text-align: center;
+}
+.criar_botao{
+  margin: 0%;
+  margin-top: 1%;
+  padding: 0.5%;
+  width:100%;
+  font-size: larger;
+  transition: all 0.2s ease;
+  background:#03589d;
+  border-radius: 6px;
+  border-style: solid;
+  border-width: 1px;
+}
+.criar_botao:hover{
+  background: red;
+}
+.criar_botao:active{
+  transform: scale(0.96);
+}
