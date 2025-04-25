@@ -9,4 +9,4 @@ npm i --save @fortawesome/fontawesome-svg-core
 npm i --save @fortawesome/free-solid-svg-icons
 npm i --save @fortawesome/react-fontawesome@latest
 
-tendo instalado tudo, você tem o projeto pronto
+tendo instalado tudo, basta rodar o Trabalho01.sql que você tem o projeto pronto pra avaliar
